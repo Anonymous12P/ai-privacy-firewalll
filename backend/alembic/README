@@ -1,0 +1,11 @@
+# Alembic
+
+Migration scripts belong in `versions/`. No revisions are included in this
+initial configuration.
+
+Run Alembic commands from the `backend/` directory. The environment loads
+`DATABASE_URL` from the backend Pydantic Settings and targets
+`app.db.base.Base.metadata`.
+
+When ORM models are added, import their modules into `alembic/env.py` before
+using `--autogenerate` so their tables are registered in that metadata.
