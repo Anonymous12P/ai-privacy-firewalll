@@ -71,6 +71,18 @@ checkpoints/
 artifacts/
 
 # ===========================
+# Dataset Contents
+# ===========================
+backend/data/raw/**
+!backend/data/raw/.gitkeep
+backend/data/processed/**
+!backend/data/processed/.gitkeep
+backend/data/interim/**
+!backend/data/interim/.gitkeep
+backend/data/external/**
+!backend/data/external/.gitkeep
+
+# ===========================
 # Temporary Files
 # ===========================
 tmp/
