@@ -1,0 +1,7 @@
+enabled: true
+planning_only: false
+cleaning_policy_file: cleaning_policy.yaml
+stage_order:
+  - missing_values
+  - duplicates
+  - outliers

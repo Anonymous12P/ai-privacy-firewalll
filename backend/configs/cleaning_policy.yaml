@@ -1,0 +1,14 @@
+name: cmu-cert-default
+version: "1.0"
+missing_values:
+  strategy: report_only
+  columns: []
+duplicates:
+  strategy: report_only
+  subset: []
+outliers:
+  method: iqr
+  threshold: 1.5
+  strategy: report_only
+  columns: []
+columns: {}
